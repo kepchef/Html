@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>글수정</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        #board.modify>form>table {
+            position: relative;
+            height: 20px;
+            margin: o;
+        }
+
+        #board.modify>form>table>tr:nth-child(1) {
+            padding: 100px;
+            border: 1px solid black;
+            background: white;
+            text-align: center;
+        }
+
+        #board.modify>form>table>tr:nth-child(2) {
+            padding: 600px;
+            border: 1px solid black;
+            background: white;
+            text-align: center;
+        }
+
+        #board.modify>form>table>tr:nth-child(3) {
+            padding: 100px;
+            border: 1px solid black;
+            background: white;
+            text-align: center;
+        }
+
+        #board.modify>form>table input {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: left;
+        }
+
+        #board.modify>form>table textarea {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: right;
+        }
+
+        #board.modify>div:nth-child(1) {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: right;
+        }
+
+        #board.modify>div:nth-child(2) {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <section id="board" class="modify">
+            <h3>글수정</h3>
+            <table border="0">
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="title" value="제목입니다." /></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td>
+                        <Textarea name="content">내용 입니다.</Textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>첨부</td>
+                    <td>
+                        <input type="submit" class="bthmodify" value="파일첨부" />
+                        <Textarea name="content">선택된 파일 없음.</Textarea>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <a href="#" class="bthCancel">취소</a>
+                <input type="submit" class="bthmodify" value="수정완료">
+            </div>
+    </div>
+
+</body>
+
+</html>

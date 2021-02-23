@@ -1,0 +1,583 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px '고딕';
+}
+ul, ol {list-style: none;}
+a {text-decoration: none; color: #111;}
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+/* 헤더영역 */
+header {
+    width: 100%;
+    height: auto;
+}
+header > div { 
+    width: 1280px;
+    box-sizing: border-box;
+}
+header > .banner {
+    width: 100%;
+    margin: 0 auto;            
+    text-align: center;
+    border: 1px solid green;   
+    box-sizing: border-box;
+    background-color: black;
+}
+header > .banner > p {
+    color: #ffec2a;
+    padding: 14px 0;
+    font-size: 22px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+header > .top {
+    width: 1280px;
+    height: 80px;
+    margin: 10px auto 20px;
+    display: block;
+}
+header > .top > .logo > img {
+    height: 187px;
+    height: 50px;
+    margin: 20px 0;
+    float: left;
+}  
+header > .top > .icon {
+    float: right;
+    display: inline-block;
+}
+header > .top > .icon > img {
+    width: 50px;
+    margin: 20px 10px 10px 0;
+}  
+header > .menu {
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+}
+header > .menu > ul {
+    height: 76px;
+    margin: 2px;
+    display: block;
+}
+header > .menu > ul >  li > img {
+    width: 65px;
+}
+
+header > .menu > ul > li > a {
+    position: absolute;
+    color: #222;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* 메인영역 */
+main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main > section {
+    width: 100%;
+}
+main > article {
+    width: 1280px;
+    margin: 0 auto;
+}
+/*슬라이더 영역*/
+main .slider {   
+    position: relative; 
+    height: 640.5px;
+    overflow: hidden;
+}
+main > .slider > img {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}   
+
+main > section > section {
+    width: 100%;
+    height: 652px;
+} 
+main > section > article {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+main > section > article > div.item {
+    
+}
+main > section > article > h3 > span{
+    display: inline-block;
+    margin: 36px auto 29px;
+    font-size: 32px;      
+}
+main > section > article > div.item > span {
+   
+}
+main div.item > a {}
+main div.item > a > .thumb {}
+main div.item > a > h2 {} 
+main div.item > a > h3 {} 
+main div.item > a > h4 {} 
+
+/*로그인*/ 
+main .innitemSection {
+    width: auto;
+    height: auto;
+    padding-bottom: 110px;
+    
+}
+main .loginRequestBox {
+    margin: 100px 0 0;
+    padding: 45px 0;
+    background: #f3f3f3;
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+}
+main .loginRequestBox > p {
+    margin: 0 0 15px;
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+}
+main .loginRequestBox > a {
+    width: 138px;
+    padding: 0;
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .3s;
+}
+main .loginRequestBox > .btnType1 {
+    height: 46px;
+    line-height: 44px;
+    padding: 0 40px;
+    background: transparent;
+    border: 1px solid #222;
+    color: #333;
+    font-size: 18px;
+    border-radius: 46px;
+    text-align: center
+}
+main .loginRequestBox > .btnType2 {
+    height: 46px;
+    line-height: 44px;
+    padding: 0 40px;
+    background: #222;
+    border: 1px solid #222;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 46px;
+    text-align: center;
+}
+/*온라인 실시간 랭킹*/ 
+main .hit {
+    width: 100%;
+    height: 716px;
+    margin: 0 auto;
+}
+/*MD 추천제품 영역*/
+main .MD {
+    width: 1280px;
+    height: 665px;
+    overflow: hidden;
+}
+main .MD > h3 {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+main .MD > .item {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: auto;
+    overflow: hidden;
+}
+main .MD > .item > a {
+    width: 100%;
+    height: 100%;
+}
+main .MD > .item > a > .thumb {
+    position: relative;
+    width: auto;
+    height: 427px;
+    margin-left: -10px;
+    margin-right: -10px;
+    overflow: hidden;
+    text-align: center;
+}
+main .MD > .item > a > h2 {
+    color: #8e470a;
+    display: block;
+    font-size: 16px;
+    font-weight: bold; 
+    margin-top: 30px;
+    margin-left: 0;
+} 
+main .MD > .item > a > h3 {
+    font-size: 20px;
+    line-height: 2.2;
+    margin-left: 0;
+    color: #000;
+} 
+main .MD > .item > a > h4 {
+    color: #222;
+    font-size: 22px;
+    font-weight: bold; 
+
+    margin-left: 0;
+} 
+main .MD > .item > a > h4 > del {
+    color: gray;
+    font-size: 22px; 
+    margin-left: 0;
+} 
+main .MD > .item > a > h4 > ins{
+    color: #222;
+    font-size: 22px;
+    font-weight: bold; 
+    text-decoration: none;
+    margin-left: 0;
+} 
+/*HOT DEAL 영역*/
+main .HOT {
+    width: 1280px;
+    height: auto;
+    overflow: hidden;
+}
+main .HOT > h3 > span{
+    display: inline-block;
+    margin: 36px auto 29px;
+    font-size: 32px; 
+    font-weight: bold;     
+}
+main .HOT > .item {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 460px;
+}
+main .HOT > .item > span {
+    position: absolute;
+    z-index: 3;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    margin: 0 0 4px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #ff3131;
+    color: #fff;
+    font-family: 'roboM', 'notoR';
+    text-align: center;
+    box-sizing: border-box;
+}
+main .HOT > .item > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main .HOT > .item > a > .thumb {
+    position: relative;
+    width: 100%;
+    margin-top: -35px;
+    margin-left: -27px;
+    overflow: hidden;
+    text-align: center;
+}
+main .HOT > .item > a > h2 {
+    margin-top: 14px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff3300;
+} 
+main .HOT > .item > a > h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+} 
+main .HOT > .item > a > h4 {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'roboM';
+    margin-top: 4px;
+    margin-left: 30px;
+} 
+/*신제품 영역*/
+main .new {
+    width: 1280px;
+    height: auto;
+    overflow: hidden;
+}
+main .new> h3 > span{
+    display: inline-block;
+    margin: 36px auto 29px;
+    font-size: 32px;  
+    font-weight: bold;    
+}
+main .new > .item {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 460px;
+}
+main .new > .item > span {
+    position: absolute;
+    z-index: 3;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    margin: 0 0 4px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #ff3131;
+    color: #fff;
+    font-family: 'roboM', 'notoR';
+    text-align: center;
+    box-sizing: border-box;
+}
+main .new > .item > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main .new > .item > a > .thumb {
+    position: relative;
+    width: 100%;
+    margin-top: -35px;
+    margin-left: -27px;
+    overflow: hidden;
+    text-align: center;
+}
+main .new > .item > a > h2 {
+    margin-top: 14px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff3300;
+} 
+main .new > .item > a > h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+} 
+main .new > .item > a > h4 {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'roboM';
+    margin-top: 4px;
+    margin-left: 30px;
+} 
+/*멤버쉽 영역*/
+main .membership {
+    width: 1280px;
+    height: 100%;
+    padding-bottom: 110px;    
+}
+main .membership > h2 {
+    margin: 56px auto 28px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+}
+main .membership > h2 > span {
+    margin-left: 10px;
+    font-family: 'notoR';
+    font-size: 0.6em; 
+    font-weight: bold;
+}
+main .membership > .mb {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+main .membership > .mb > a {
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    color: #222;
+}
+main .membership > .mb > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+main .membership > .mb > ul {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0;
+    overflow: hidden;
+}
+main .membership > .mb > ul > li {
+    float: left;
+    width: 16.6%;
+    height: 229px;
+    font-size: 18px;
+    list-style: none;
+}
+main .membership > .mb > ul > li > .icon {
+    position: relative;
+    display: inline-block;
+    width: 143px;
+    height: 143px;
+    margin: 0 35px;
+    border-radius: 50%;
+    background: #f3f3f3;
+}
+main .membership > .mb > ul > li > strong {
+    position: absolute;
+    display: block;
+    color: #222;
+    margin-left: 30px;
+    font-family: 'notoR';
+    font-size: 20px;
+    font-weight: bold;
+}
+main .membership > .mb > ul > li > .txt {
+    position: absolute;
+    display: block;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #777;
+    overflow: ;
+}
+/* 푸터영역 */
+footer {
+    width: 100%;
+    height: 412px;
+    padding: 0 0 0px;
+    border-top: 1px solid #dbdbdb;
+
+}
+footer > div {
+    width: 1280px;
+    height: 65px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
+} 
+footer > div .menu {
+    float: left;
+    width: 686px;
+    height: 66px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+footer .menu > li {
+    display: block;
+    padding: 15px 0 15px 0;
+}
+footer .menu > li > a {
+    position: relative;
+    margin-left: 16px;
+    color: #222;
+    font-family: "Malgun Gothic";
+}
+footer > div .sns {
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 202px;
+}
+footer > div .sns > .btnYoutube {
+    background: url(../img/icon_youtube.png);
+    width: 32px;
+    height: 32px;
+
+}
+footer > div .sns > img {
+    background: url(../img/icon_facebook.png);
+    width: 32px;
+    height: 32px;
+
+}
+footer .ftinfo {
+    width: 1280px;
+    height: 266px;
+    padding: 44px 0 0;
+}
+footer > div .info {
+    float: left;
+    width: 760px;
+    height: 196px;
+    margin: 16px 0 0;
+}
+footer > div .info > img {
+    height: 30px;
+    margin-top: -20px;
+}
+footer > div .info p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    padding: 0;
+}
+footer > div .info > p > strong {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: underline;
+}
+footer > div .custer {
+    float: right;
+    width: 380px;
+    height: 212px;
+    margin: 0 auto;
+    padding: 31px 31px;
+    background: #f3f3f3;
+    box-sizing: border-box;
+}
+footer > div .custer > a {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 32px;
+    margin-top: 11px;
+    color: #222;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    padding-left: 18px;
+}
+footer > div .custer > p > strong {
+    font: 30px/1.6 'roboM';
+    color: #555;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

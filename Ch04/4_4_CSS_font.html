@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폰트속성</title>
+</head>
+<body>
+    <style>
+        /*
+        폰트속성
+        */
+        .box1 > div:nth-child(1){font-size: 16px;}
+        .box1 > div:nth-child(2){font-size: 32px;}
+        .box1 > div:nth-child(3){font-size: 100%;}
+        .box1 > div:nth-child(4){font-size: 200%;}
+        .box1 > div:nth-child(5){font-size: 2em;}
+
+        .box2 > div{
+            font: size 32;;
+        }
+        .box2 > div:nth-child(1){font-family: '궁서체';}
+        .box2 > div:nth-child(2){font-family: '돋움체';}
+        .box2 > div:nth-child(3){font-family: '고딕체';}
+        .box2 > div:nth-child(4){font-family: '궁서체';}
+        .box2 > div:nth-child(5){font-family: '궁서체';}
+
+        .box3 > div:nth-child(1){fount font-weight: 100;}
+        .box3 > div:nth-child(1){fount font-weight: 200;}
+        .box3 > div:nth-child(1){fount font-weight: 400;}
+        .box3 > div:nth-child(1){fount font-weight: bold;}
+        .box3 > div:nth-child(1){fount font-weight: bolder;}
+
+        .box4 > div:nth-child(1){font: bold 16px '궁서체';}
+        .box4 > div:nth-child(2){font: normal 36px '궁서체';}
+        .box4 > div:nth-child(3){font: bold 2em '고딕체';}
+        .box4 > div:nth-child(4){font: normal 32px '궁서체';}
+        .box4 > div:nth-child(5){font: normal 32px '궁서체';}
+
+        .box5 > p{
+            line-height: 16px;
+        }
+        .box5 > div{
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            /*박스의 높이로 line- height를 지정하면 해당 박스의 텍스트는 수직 가운데 정령*/
+            line-height: 100px;
+        }
+    </style>
+
+    <h3>2)font_family</h3>
+
+
+    <h4>1)fount-size</h4>
+    <div class="box box1">
+    <div Hello, 안녕하세요.></div>
+    <div Hello, 안녕하세요.></div>
+    <div Hello, 안녕하세요.></div>
+    <div Hello, 안녕하세요.></div>
+    <div Hello, 안녕하세요.></div>
+</div>> 
+    <h4>3)fount-width</h4>
+    <div class = "bax box2">
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+</div>
+    <h4>4)fount</h4>
+    <div class="bax box3">
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+</div>
+    <h4>5)fount</h4>
+    <div class="bax box4">
+    <div>동해물과 백두산이 마르고 닯도록</div>
+    <div>하느님이 보우하사 우리나라 만세</div>
+    <div>무궁화 삼천리 화려다항산</div>
+    <div>대한사람 대한으로 길이보전하세</div>
+</div>
+
+    <h4>6)fount</h4>
+    <div class="bax box5">
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+    <div>Hello, 안녕하세요.</div>
+</div>
+    
+</body>
+</html>

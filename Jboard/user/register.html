@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <style>
+        /*
+        회원가입 CSS참고
+        http://chhak.kr/board/user/register.html
+        */
+        #user.register{}
+        #user.register table{}
+        #user.register table{}
+        #user.register table caption{}
+        #user.register table td{}
+        #user.register tablet td:nth-child(){}
+        #user.register table div:nth-child(1){} > input
+        #user.register table div:nth-child(2){} > input
+        #user.register table div:nth-child(3){} > input
+        #user.register table button
+
+        #user.register > form > div{}
+        #user.register > form > div.btnCancel{}
+        #user.register > form > div.btnRegister{}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <section id="user" class="register"">
+            <form action="#" method="POST">
+                <table border="1">
+                    <caption>사이트 이용정보 입력</caption>
+                        <tr>
+                            <td>아이디</td>
+                            <td>
+                                <input type="text" name="uid" placeholder="아이디 입력"/>
+                                <span class="result_uid"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>비밀번호</td>
+                            <td>
+                                <input type="password" name="pass1" placeholder="비밀번호 입력"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>비밀번호 확인</td>
+                            <td>
+                                <input type="password" name="pass2" placeholder="비밀번호 확인 입력"/>
+                                <span class="result_pass"></span>
+                            </td>
+                        </tr>
+                </table>
+
+                <table border="1">
+                    <caption>게인정보 입력</caption>
+                        <tr>
+                            <td>이름</td>
+                            <td>
+                                <input type="text" name="name" placeholder="이름 입력"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>별명</td>
+                            <td>
+                                <p>공백없이 한글, 영문,숫자만 입력가능</p>
+                                <input type="text" name="lick1" placeholder="별명 입력"/>
+                                <span class="result_nick"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>
+                                <input type="email" name="email" placeholder="이메일 입력"/>
+                            </td>
+                        </tr>                  
+                        <tr>               
+                            <td>휴대폰</td>
+                                <td>
+                                    <input type="text" name="hp" placeholder="-포함 13자리 입력" minlength="13" maxlength="13"/>
+                                </td>
+                        </tr>
+                        <tr>                  
+                            <td>주소</td>
+                            <td>
+                                <div>
+                                    <input type="text" name="zip" placeholder="우편번호"/>
+                                    <button>주소검색</button>
+                                </div>
+                                <div>
+                                    <input type="text" name="add1" placeholder="기본주소 검색"/>                                    </div>
+                                <div>
+                                    <input type="text" name="add2" placeholder="상세주소 검색"/>
+                                </div>
+                            </td>
+                        </tr>
+                </table>      
+    
+                <div>     
+                    <a h      ref="#" class="bthCancel">취소</a>
+                    <inp      ut type="submit" class="bthRegistor" value="회원가입">
+                </div>    
+            </form>
+        </section>
+    </div>
+    
+</body>
+</html>
